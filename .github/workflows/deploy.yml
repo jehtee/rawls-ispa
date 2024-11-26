@@ -3,15 +3,15 @@ name: Deploy Starlight Site
 on:
   push:
     branches:
-      - main # Runs the workflow on push to the main branch
-  workflow_dispatch: # Enables the manual trigger
+      - main # Triggers the workflow on push to the main branch
+  workflow_dispatch: # Allows manual triggering of the workflow
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout the repository
+      # Step 1: Check out the repository
       - name: Checkout the repository
         uses: actions/checkout@v3
 
@@ -19,27 +19,21 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '22'
+          node-version: '22' # Astro requires Node.js >=18.14.1
 
-      # Step 3: Change to the "site/" directory
-      - name: Navigate to site folder
-        working-directory: site
-        run: |
-          echo "Working directory: $(pwd)"
-
-      # Step 4: Install dependencies
+      # Step 3: Install dependencies in the "site/" folder
       - name: Install dependencies
-        working-directory: site
         run: npm install
-
-      # Step 5: Build the project
-      - name: Build the project
         working-directory: site
-        run: npm run build
 
-      # Step 6: Deploy to GitHub Pages
+      # Step 4: Build the Astro project in the "site/" folder
+      - name: Build the project
+        run: npm run build
+        working-directory: site
+
+      # Step 5: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: site/dist
+          publish_dir: site/dist # Adjust if the output folder is different
