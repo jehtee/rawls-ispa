@@ -1,0 +1,327 @@
+<!DOCTYPE html><html lang="en" dir="ltr" data-has-toc data-has-sidebar data-theme="dark" class="astro-bguv2lll"> <head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>SOW - Market Research | Docs with Tailwind</title><link rel="canonical"/><link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml"/><meta name="generator" content="Astro v4.16.15"/><meta name="generator" content="Starlight v0.29.2"/><meta property="og:title" content="SOW - Market Research"/><meta property="og:type" content="article"/><meta property="og:url"/><meta property="og:locale" content="en"/><meta property="og:description" content="SOW for the ISPA market reserach project"/><meta property="og:site_name" content="Docs with Tailwind"/><meta name="twitter:card" content="summary_large_image"/><meta name="description" content="SOW for the ISPA market reserach project"/><script>
+	window.StarlightThemeProvider = (() => {
+		const storedTheme =
+			typeof localStorage !== 'undefined' && localStorage.getItem('starlight-theme');
+		const theme =
+			storedTheme ||
+			(window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+		document.documentElement.dataset.theme = theme === 'light' ? 'light' : 'dark';
+		return {
+			updatePickers(theme = storedTheme || 'auto') {
+				document.querySelectorAll('starlight-theme-select').forEach((picker) => {
+					const select = picker.querySelector('select');
+					if (select) select.value = theme;
+					/** @type {HTMLTemplateElement | null} */
+					const tmpl = document.querySelector(`#theme-icons`);
+					const newIcon = tmpl && tmpl.content.querySelector('.' + theme);
+					if (newIcon) {
+						const oldIcon = picker.querySelector('svg.label-icon');
+						if (oldIcon) {
+							oldIcon.replaceChildren(...newIcon.cloneNode(true).childNodes);
+						}
+					}
+				});
+			},
+		};
+	})();
+</script><template id="theme-icons"><svg aria-hidden="true" class="light astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M5 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Zm.64 5-.71.71a1 1 0 0 0 0 1.41 1 1 0 0 0 1.41 0l.71-.71A1 1 0 0 0 5.64 17ZM12 5a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1Zm5.66 2.34a1 1 0 0 0 .7-.29l.71-.71a1 1 0 1 0-1.41-1.41l-.66.71a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.29Zm-12-.29a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.71-.71a1.004 1.004 0 1 0-1.43 1.41l.73.71ZM21 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm-2.64 6A1 1 0 0 0 17 18.36l.71.71a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.76-.66ZM12 6.5a5.5 5.5 0 1 0 5.5 5.5A5.51 5.51 0 0 0 12 6.5Zm0 9a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 3.5a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1Z"/></svg> <svg aria-hidden="true" class="dark astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.64 13a1 1 0 0 0-1.05-.14 8.049 8.049 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.69 1 1 0 0 0-.36-1.05Zm-9.5 6.69A8.14 8.14 0 0 1 7.08 5.22v.27a10.15 10.15 0 0 0 10.14 10.14 9.784 9.784 0 0 0 2.1-.22 8.11 8.11 0 0 1-7.18 4.32v-.04Z"/></svg> <svg aria-hidden="true" class="auto astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg> </template><link rel="stylesheet" href="/_astro/index.DjkQRpYo.css"><script type="module" src="/_astro/hoisted.DV46Chpw.js"></script>
+<script type="module" src="/_astro/page.7qqag-5g.js"></script></head> <body class="astro-bguv2lll"> <a href="#_top" class="astro-7q3lir66">Skip to content</a>  <div class="page sl-flex astro-vrdttmbt"> <header class="header astro-vrdttmbt"><div class="header sl-flex astro-kmkmnagf"> <div class="title-wrapper sl-flex astro-kmkmnagf"> <a href="/" class="site-title sl-flex astro-m46x6ez3">  <span class="astro-m46x6ez3"> Docs with Tailwind </span> </a>  </div> <div class="sl-flex astro-kmkmnagf"> <site-search data-translations="{&#34;placeholder&#34;:&#34;Search&#34;}" class="astro-v37mnknz"> <button data-open-modal disabled aria-label="Search" aria-keyshortcuts="Control+K" class="astro-v37mnknz"> <svg aria-hidden="true" class="astro-v37mnknz astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.71 20.29 18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 0-14 7 7 0 0 1 0 14Z"/></svg>  <span class="sl-hidden md:sl-block astro-v37mnknz" aria-hidden="true">Search</span> <kbd class="sl-hidden md:sl-flex astro-v37mnknz" style="display: none;"> <kbd class="astro-v37mnknz">Ctrl</kbd><kbd class="astro-v37mnknz">K</kbd> </kbd> </button> <dialog style="padding:0" aria-label="Search" class="astro-v37mnknz"> <div class="dialog-frame sl-flex astro-v37mnknz">  <button data-close-modal class="sl-flex md:sl-hidden astro-v37mnknz"> Cancel </button> <div class="search-container astro-v37mnknz"> <div id="starlight__search" class="astro-v37mnknz"></div> </div> </div> </dialog> </site-search>  <script>
+	(() => {
+		const openBtn = document.querySelector('button[data-open-modal]');
+		const shortcut = openBtn?.querySelector('kbd');
+		if (!openBtn || !(shortcut instanceof HTMLElement)) return;
+		const platformKey = shortcut.querySelector('kbd');
+		if (platformKey && /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform)) {
+			platformKey.textContent = '⌘';
+			openBtn.setAttribute('aria-keyshortcuts', 'Meta+K');
+		}
+		shortcut.style.display = '';
+	})();
+</script>    </div> <div class="sl-hidden md:sl-flex right-group astro-kmkmnagf"> <div class="sl-flex social-icons astro-kmkmnagf">  </div> <starlight-theme-select>  <label style="--sl-select-width: 6.25em" class="astro-4yphtoen"> <span class="sr-only astro-4yphtoen">Select theme</span> <svg aria-hidden="true" class="icon label-icon astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg>  <select value="auto" class="astro-4yphtoen"> <option value="dark" class="astro-4yphtoen">Dark</option><option value="light" class="astro-4yphtoen">Light</option><option value="auto" selected class="astro-4yphtoen">Auto</option> </select> <svg aria-hidden="true" class="icon caret astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg>  </label>  </starlight-theme-select>  <script>
+	StarlightThemeProvider.updatePickers();
+</script>   </div> </div> </header> <nav class="sidebar astro-vrdttmbt" aria-label="Main"> <starlight-menu-button class="astro-jif73yzw"> <button aria-expanded="false" aria-label="Menu" aria-controls="starlight__sidebar" class="sl-flex md:sl-hidden astro-jif73yzw"> <svg aria-hidden="true" class="astro-jif73yzw astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M3 8h18a1 1 0 1 0 0-2H3a1 1 0 0 0 0 2Zm18 8H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Zm0-5H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Z"/></svg>  </button> </starlight-menu-button>    <div id="starlight__sidebar" class="sidebar-pane astro-vrdttmbt"> <div class="sidebar-content sl-flex astro-vrdttmbt"> <sl-sidebar-state-persist data-hash="0dgf4pa" class="astro-kku4brbg"> <script>
+		(() => {
+			try {
+				if (!matchMedia('(min-width: 50em)').matches) return;
+				/** @type {HTMLElement | null} */
+				const target = document.querySelector('sl-sidebar-state-persist');
+				const state = JSON.parse(sessionStorage.getItem('sl-sidebar-state') || '0');
+				if (!target || !state || target.dataset.hash !== state.hash) return;
+				window._starlightScrollRestore = state.scroll;
+				customElements.define(
+					'sl-sidebar-restore',
+					class SidebarRestore extends HTMLElement {
+						connectedCallback() {
+							try {
+								const idx = parseInt(this.dataset.index || '');
+								const details = this.closest('details');
+								if (details && typeof state.open[idx] === 'boolean') details.open = state.open[idx];
+							} catch {}
+						}
+					}
+				);
+			} catch {}
+		})();
+	</script>  <ul class="top-level astro-3ii7xxms"> <li class="astro-3ii7xxms"> <details open class="astro-3ii7xxms"> <sl-sidebar-restore data-index="0"></sl-sidebar-restore> <summary class="astro-3ii7xxms"> <div class="group-label astro-3ii7xxms"> <span class="large astro-3ii7xxms">Admin</span>  </div> <svg aria-hidden="true" class="caret astro-3ii7xxms astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg>  </summary> <ul class="astro-3ii7xxms"> <li class="astro-3ii7xxms"> <a href="/00-admin/notes-planning/" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Planning Notes</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/00-admin/sow-market-research/" aria-current="page" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">SOW - Market Research</span>  </a> </li> </ul>  </details> </li><li class="astro-3ii7xxms"> <details open class="astro-3ii7xxms"> <sl-sidebar-restore data-index="1"></sl-sidebar-restore> <summary class="astro-3ii7xxms"> <div class="group-label astro-3ii7xxms"> <span class="large astro-3ii7xxms">Define</span>  </div> <svg aria-hidden="true" class="caret astro-3ii7xxms astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg>  </summary> <ul class="astro-3ii7xxms"> <li class="astro-3ii7xxms"> <a href="/01-define/market-segments-hypothesis/" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Market Segment Hypothesis</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/01-define/project-definition/" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Project Definition</span>  </a> </li> </ul>  </details> </li><li class="astro-3ii7xxms"> <details open class="astro-3ii7xxms"> <sl-sidebar-restore data-index="2"></sl-sidebar-restore> <summary class="astro-3ii7xxms"> <div class="group-label astro-3ii7xxms"> <span class="large astro-3ii7xxms">Discover</span>  </div> <svg aria-hidden="true" class="caret astro-3ii7xxms astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg>  </summary> <ul class="astro-3ii7xxms"> <li class="astro-3ii7xxms"> <a href="/02-discover/analogous-market-offerings/" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Analogous Market Offerings</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/02-discover/review-public-information/" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Review of Website</span>  </a> </li> </ul>  </details> </li> </ul>   <script>
+		(() => {
+			const scroller = document.getElementById('starlight__sidebar');
+			if (!window._starlightScrollRestore || !scroller) return;
+			scroller.scrollTop = window._starlightScrollRestore;
+			delete window._starlightScrollRestore;
+		})();
+	</script> </sl-sidebar-state-persist>  <div class="md:sl-hidden"> <div class="mobile-preferences sl-flex astro-wu23bvmt"> <div class="sl-flex social-icons astro-wu23bvmt">  </div> <starlight-theme-select>  <label style="--sl-select-width: 6.25em" class="astro-4yphtoen"> <span class="sr-only astro-4yphtoen">Select theme</span> <svg aria-hidden="true" class="icon label-icon astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg>  <select value="auto" class="astro-4yphtoen"> <option value="dark" class="astro-4yphtoen">Dark</option><option value="light" class="astro-4yphtoen">Light</option><option value="auto" selected class="astro-4yphtoen">Auto</option> </select> <svg aria-hidden="true" class="icon caret astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg>  </label>  </starlight-theme-select>  <script>
+	StarlightThemeProvider.updatePickers();
+</script>   </div>  </div> </div> </div> </nav> <div class="main-frame astro-vrdttmbt">   <div class="lg:sl-flex astro-67yu43on"> <aside class="right-sidebar-container astro-67yu43on"> <div class="right-sidebar astro-67yu43on"> <div class="lg:sl-hidden astro-pb3aqygn"><mobile-starlight-toc data-min-h="2" data-max-h="3" class="astro-doynk5tl"><nav aria-labelledby="starlight__on-this-page--mobile" class="astro-doynk5tl"><details id="starlight__mobile-toc" class="astro-doynk5tl"><summary id="starlight__on-this-page--mobile" class="sl-flex astro-doynk5tl"><div class="toggle sl-flex astro-doynk5tl">On this page<svg aria-hidden="true" class="caret astro-doynk5tl astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg> </div><span class="display-current astro-doynk5tl"></span></summary><div class="dropdown astro-doynk5tl"><ul class="isMobile astro-g2bywc46" style="--depth: 0;"> <li class="astro-g2bywc46" style="--depth: 0;"> <a href="#_top" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Overview</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#project-objectives" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Project Objectives</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#outcome" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Outcome</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#scope" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Scope</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#deliverables" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Deliverables</span> </a> <ul class="isMobile astro-g2bywc46" style="--depth: 1;"> <li class="astro-g2bywc46" style="--depth: 1;"> <a href="#market" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Market</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#demand" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Demand</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#competition" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Competition</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#pricing-guidance" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Pricing Guidance</span> </a>  </li> </ul>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#level-of-effort-estimation" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Level Of Effort Estimation</span> </a> <ul class="isMobile astro-g2bywc46" style="--depth: 1;"> <li class="astro-g2bywc46" style="--depth: 1;"> <a href="#project-plan" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Project Plan</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#itemization" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Itemization</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#summary-estimate" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Summary Estimate</span> </a>  </li> </ul>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#methods" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Methods</span> </a> <ul class="isMobile astro-g2bywc46" style="--depth: 1;"> <li class="astro-g2bywc46" style="--depth: 1;"> <a href="#secondary-sources" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Secondary Sources</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#interviews" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Interviews</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#survey" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Survey</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#provisional-personas" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Provisional Personas</span> </a>  </li> </ul>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#agreement" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Agreement</span> </a> <ul class="isMobile astro-g2bywc46" style="--depth: 1;"> <li class="astro-g2bywc46" style="--depth: 1;"> <a href="#effect" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Effect</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#fees" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Fees</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#relationship-of-parties" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Relationship of Parties</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#deliverables-1" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Deliverables</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#term-and-termination" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Term and Termination</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#change-management" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Change Management</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#force-majeure" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Force Majeure</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#confidentiality" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Confidentiality</span> </a>  </li> </ul>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#signatures" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Signatures</span> </a>  </li> </ul> </div></details></nav></mobile-starlight-toc></div><div class="right-sidebar-panel sl-hidden lg:sl-block astro-pb3aqygn"><div class="sl-container astro-pb3aqygn"><starlight-toc data-min-h="2" data-max-h="3"><nav aria-labelledby="starlight__on-this-page"><h2 id="starlight__on-this-page">On this page</h2><ul class="astro-g2bywc46" style="--depth: 0;"> <li class="astro-g2bywc46" style="--depth: 0;"> <a href="#_top" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Overview</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#project-objectives" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Project Objectives</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#outcome" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Outcome</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#scope" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Scope</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#deliverables" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Deliverables</span> </a> <ul class="astro-g2bywc46" style="--depth: 1;"> <li class="astro-g2bywc46" style="--depth: 1;"> <a href="#market" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Market</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#demand" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Demand</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#competition" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Competition</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#pricing-guidance" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Pricing Guidance</span> </a>  </li> </ul>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#level-of-effort-estimation" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Level Of Effort Estimation</span> </a> <ul class="astro-g2bywc46" style="--depth: 1;"> <li class="astro-g2bywc46" style="--depth: 1;"> <a href="#project-plan" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Project Plan</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#itemization" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Itemization</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#summary-estimate" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Summary Estimate</span> </a>  </li> </ul>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#methods" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Methods</span> </a> <ul class="astro-g2bywc46" style="--depth: 1;"> <li class="astro-g2bywc46" style="--depth: 1;"> <a href="#secondary-sources" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Secondary Sources</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#interviews" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Interviews</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#survey" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Survey</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#provisional-personas" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Provisional Personas</span> </a>  </li> </ul>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#agreement" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Agreement</span> </a> <ul class="astro-g2bywc46" style="--depth: 1;"> <li class="astro-g2bywc46" style="--depth: 1;"> <a href="#effect" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Effect</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#fees" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Fees</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#relationship-of-parties" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Relationship of Parties</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#deliverables-1" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Deliverables</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#term-and-termination" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Term and Termination</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#change-management" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Change Management</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#force-majeure" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Force Majeure</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#confidentiality" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Confidentiality</span> </a>  </li> </ul>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#signatures" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Signatures</span> </a>  </li> </ul> </nav></starlight-toc></div></div> </div> </aside> <div class="main-pane astro-67yu43on">  <main data-pagefind-body lang="en" dir="ltr" class="astro-bguv2lll">    <div class="content-panel astro-7nkwcw3z"> <div class="sl-container astro-7nkwcw3z"> <h1 id="_top" class="astro-j6tvhyss">SOW - Market Research</h1>  </div> </div>  <div class="content-panel astro-7nkwcw3z"> <div class="sl-container astro-7nkwcw3z"> <div class="sl-markdown-content"> <h1 id="sow-market-research">SOW: Market Research</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="left"></th><th align="left"></th></tr></thead><tbody><tr><td align="left">Client</td><td align="left">Rawls Group</td></tr><tr><td align="left">Contractor</td><td align="left">Netspective</td></tr><tr><td align="left">Date Submitted</td><td align="left">11/20/2024</td></tr><tr><td align="left">Expiry Date</td><td align="left">12/04/2024</td></tr></tbody></table>
+<h2 id="project-objectives">Project Objectives</h2>
+<ul>
+<li>Define objectives Rawls wants achieved</li>
+<li>Scope objectives to fit within time and dollar budgets</li>
+</ul>
+<p>Information needed from Rawls:</p>
+<ul>
+<li>Tactical questions Rawls wants answered</li>
+<li>Actions/Decisions Rawls wants supported</li>
+<li>Provisional KPIs Rawls intends for ISPA</li>
+<li>Mailing list for survey distribution</li>
+</ul>
+<h2 id="outcome">Outcome</h2>
+<ul>
+<li>To improve Rawls’ strategic decision making for IPSA market position, with insights into market, demand, competition and pricing guidance.</li>
+</ul>
+<h2 id="scope">Scope</h2>
+<p>Conducting primary and secondary market research, and delivering insights derived from it.</p>
+<h2 id="deliverables">Deliverables</h2>
+<h3 id="market">Market</h3>
+<ul>
+<li>Estimate market size and scale in terms of number of participants and aggregate value.
+<ul>
+<li>TAM (total addressable market)</li>
+<li>SAM (serviceable available market)</li>
+<li>SOM (serviceable obtainable market)</li>
+</ul>
+</li>
+<li>Segment market participants
+<ul>
+<li>By purchasing behaviour</li>
+<li>Rawls to prioritize segments
+<ul>
+<li>Priority segment for ISPA membership</li>
+<li>Priority segment for research (these may be different)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="demand">Demand</h3>
+<ul>
+<li>For each segment, identify
+<ul>
+<li>Motivations</li>
+<li>Opportunities</li>
+<li>Needs</li>
+<li>Challenges</li>
+</ul>
+</li>
+<li>Estimate dollar values for each</li>
+<li>These focus on the the drivers behind purchasing behaviour, rather than the purchasing behaviour itself</li>
+</ul>
+<h3 id="competition">Competition</h3>
+<ul>
+<li>Inventory direct and indirect market competitors</li>
+<li>Relate competitors to each other in the context of industry membership and supporting tools</li>
+</ul>
+<h3 id="pricing-guidance">Pricing Guidance</h3>
+<ul>
+<li>Use prices for analogous market services to help estimate pricing range for ISPA membership, including potential tiered pricing</li>
+</ul>
+<h2 id="level-of-effort-estimation">Level Of Effort Estimation</h2>
+<h3 id="project-plan">Project Plan</h3>
+<p><img  src="/_astro/gantt-ispa-market-research.BtpfsvNM_1sR5GS.webp" alt="Gantt Chart" width="2041" height="209" loading="lazy" decoding="async"></p>
+<h3 id="itemization">Itemization</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="left">Stage</th><th align="left">Effort</th><th align="left">Duration</th><th align="right">Cost</th></tr></thead><tbody><tr><td align="left">Defintion</td><td align="left">6h</td><td align="left">6h</td><td align="right">$900</td></tr><tr><td align="left">Secondary Research</td><td align="left">16h</td><td align="left">16h</td><td align="right">$2,400</td></tr><tr><td align="left">Primary Research - Interviews</td><td align="left">18h</td><td align="left">72h</td><td align="right">$2,700</td></tr><tr><td align="left">Personas</td><td align="left">8h</td><td align="left">8h</td><td align="right">$1,200</td></tr><tr><td align="left">Primary Research - Survey</td><td align="left">16h</td><td align="left">40h</td><td align="right">$2,400</td></tr><tr><td align="left">Analysis</td><td align="left">24h</td><td align="left">24h</td><td align="right">$3,600</td></tr><tr><td align="left">Documentation</td><td align="left">8h</td><td align="left">8h</td><td align="right">$1,200</td></tr><tr><td align="left"><strong>Totals</strong></td><td align="left"><strong>96h</strong></td><td align="left"><strong>184h</strong></td><td align="right"><strong>$14,400</strong></td></tr></tbody></table>
+<h3 id="summary-estimate">Summary Estimate</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="right"></th><th align="left"></th></tr></thead><tbody><tr><td align="right">Budget</td><td align="left">$14,400</td></tr><tr><td align="right">Effort</td><td align="left">96 hours</td></tr><tr><td align="right">Duration</td><td align="left">184 hrs</td></tr><tr><td align="right">Completion Date</td><td align="left">December 23rd, 2024</td></tr></tbody></table>
+<p><em><strong>Note</strong></em>: the holidays complicate duration estimation, as they disrupt 3rd party participation (like interview subject and survey respondents).</p>
+<h2 id="methods">Methods</h2>
+<h3 id="secondary-sources">Secondary Sources</h3>
+<ul>
+<li>Review of available material form providers like Statista, LinkedIN, and financial planning specific communities.</li>
+</ul>
+<h3 id="interviews">Interviews</h3>
+<ul>
+<li>Conduct ~ 6 interviews with purchasing decision makers</li>
+<li>NOTE: Depending on Rawls’ network, this could take a variable amount of time to get 6 confirmed participants</li>
+<li>Focus on
+<ul>
+<li>Purchase decision making</li>
+<li>Operations</li>
+<li>Discover over validation</li>
+</ul>
+</li>
+</ul>
+<h3 id="survey">Survey</h3>
+<ul>
+<li>~10 question survey</li>
+<li>~5 minute completion time</li>
+<li>Multiple choice and Likert scale questions</li>
+<li>Focus on
+<ul>
+<li>Purchase decision making</li>
+<li>Operations</li>
+<li>Validation over discovery
+<ul>
+<li>of interview findings, and existing assumptions</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="provisional-personas">Provisional Personas</h3>
+<ul>
+<li>Personas model operation and behavioural psychology</li>
+<li>They help us understand what is driving purchasing and the context into which any solution must fit</li>
+<li>This in turns helps us to focus the product offering, which is necessary to focus pricing strategy (membership alone will be priced differently from membership + tools + education, for example)</li>
+<li>These personas will be provisional because this effort focuses on markets more than people</li>
+</ul>
+<h2 id="agreement">Agreement</h2>
+<h3 id="effect">Effect</h3>
+<p>This SOW proposal is in effect for 14 days, and expiring on December 4, 2024.</p>
+<h3 id="fees">Fees</h3>
+<p>This is a flat fee project.  Estimated fees are for Contractor’s efforts, and do not include any 3rd party costs that might become necessary (like  recruiting, or participant incentive for example).</p>
+<p>Travel and expenses are likewise not included in the flat fee, though we do not anticipate these costs for this project.</p>
+<p>Since this project is a flat rate project estimated to complete within  2 months Contractor will invoice 50% at the end of each calendar month (November and December).</p>
+<p>Invoices are payment within 30 days of receipt.</p>
+<p>A monthly service change of 1.5% is payable on overdue balances.</p>
+<h3 id="relationship-of-parties">Relationship of Parties</h3>
+<p>Netspecitve is in independent contractor, and not an employee of Client or any company affiliated with Client.  The parties expressly acknowledge that this Agreement does not create an exclusive relationship between the parties.</p>
+<h3 id="deliverables-1">Deliverables</h3>
+<p>Market research findings and insights.  The services and the work products are sold “as is.”</p>
+<h3 id="term-and-termination">Term and Termination</h3>
+<p>This is a fixed fee project, but may have a variable duration depending on the participation of 3rd parties and potential impact of the holidays.</p>
+<p>Given the limited scope and duration parties agree to fulfill this SOW without termination.</p>
+<h3 id="change-management">Change Management</h3>
+<p>Should any project change become necessary, given the short duration, we would need to create a new project plan with new estimations.</p>
+<h3 id="force-majeure">Force Majeure</h3>
+<p>Contractor shall not be deemed in breach of this Agreement if Contractor is unable to complete the Services or any portion thereof by reason of fire, earthquake, flood, hurricane or other severe weather, labor dispute, act of war, terrorism, riot or other severe civil disturbance, death, illness or incapacity of Contractor or any local, state, federal, national or international law, governmental order or regulation or any other event beyond Contractor’s control (collectively, “Force Majeure Event”).</p>
+<h3 id="confidentiality">Confidentiality</h3>
+<p>Each party acknowledges that in connection with this Agreement it may receive certain confidential or proprietary technical and business information and materials of the other party, including without limitation Preliminary Works (“Confidential Information”). Each party, its agents and employees shall hold and maintain in strict confidence all Confidential Information, shall not disclose Confidential Information to any third party, and shall not use any Confidential Information except as may be necessary to perform its obligations under the Proposal except as may be required by a court or governmental authority. Notwithstanding the foregoing, Confidential Information shall not include any information that is in the public domain or becomes publicly known through no fault of the receiving party, or is otherwise properly received from a third party without an obligation of confidentiality.</p>
+<h2 id="signatures">Signatures</h2>
+<p>By their execution below, the parties hereto have agreed to all of the terms and conditions of this Agreement effective as of the last date of signature below, and each signatory represents that it has the full authority to enter into this Agreement and to bind her/his respective party to all of the terms and conditions herein.</p>
+<p><br><br><br>
+__________________________________,</p>
+<p>Name: John Trenouth, Netspective</p>
+<p>Date: November 20, 2024</p>
+<p><br><br><br>
+__________________________________,</p>
+<p>Name: Jeff Faulkner, Rawls Group</p>
+<p>Date:</p> </div> <footer class="sl-flex astro-3yyafb3n"> <div class="meta sl-flex astro-3yyafb3n">   </div> <div class="pagination-links astro-u2l5gyhi" dir="ltr"> <a href="/00-admin/notes-planning/" rel="prev" class="astro-u2l5gyhi"> <svg aria-hidden="true" class="astro-u2l5gyhi astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17 11H9.41l3.3-3.29a1.004 1.004 0 1 0-1.42-1.42l-5 5a1 1 0 0 0-.21.33 1 1 0 0 0 0 .76 1 1 0 0 0 .21.33l5 5a1.002 1.002 0 0 0 1.639-.325 1 1 0 0 0-.219-1.095L9.41 13H17a1 1 0 0 0 0-2Z"/></svg>  <span class="astro-u2l5gyhi"> Previous <br class="astro-u2l5gyhi"> <span class="link-title astro-u2l5gyhi">Planning Notes</span> </span> </a> <a href="/01-define/market-segments-hypothesis/" rel="next" class="astro-u2l5gyhi"> <svg aria-hidden="true" class="astro-u2l5gyhi astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17.92 11.62a1.001 1.001 0 0 0-.21-.33l-5-5a1.003 1.003 0 1 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1.002 1.002 0 0 0 .325 1.639 1 1 0 0 0 1.095-.219l5-5a1 1 0 0 0 .21-.33 1 1 0 0 0 0-.76Z"/></svg>  <span class="astro-u2l5gyhi"> Next <br class="astro-u2l5gyhi"> <span class="link-title astro-u2l5gyhi">Market Segment Hypothesis</span> </span> </a> </div>   </footer>  </div> </div>   </main> </div> </div>  </div> </div>  </body></html>
