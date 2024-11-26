@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2" file-format-version="2">
+  <window x="145" y="0" w="2478" h="1090">
+    <editing-scenario>hKTpre0kyxy</editing-scenario>
+    <view>task</view>
+    <change-tracking/>
+    <status-display>basic</status-display>
+    <task-view>
+      <split-view-divider-position>539</split-view-divider-position>
+      <outline x="0" y="0" w="539" h="1006">
+        <column name="Title" width="295"/>
+        <column name="Effort" width="78"/>
+        <column name="Time" width="63"/>
+        <column name="Total Task Cost" width="98"/>
+        <expanded-items idrefs="t140"/>
+        <selected-items-at-filter-time idrefs="t148 t152 t140 t150 t147 t153 t154 t161 t158"/>
+      </outline>
+      <gantt-view x="3966" y="0" w="1637" h="1006">
+        <view-mode>actual</view-mode>
+        <group-shading/>
+        <dependency-lines/>
+        <constraints/>
+        <task-bar-label task-type="group" position="left">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="group" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="group" position="right">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="left">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="right">
+          <key>Assigned</key>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="left">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="right">
+          <key/>
+        </task-bar-label>
+        <scale scale-name="Automatic" full-day-width="184.589">
+          <selected/>
+        </scale>
+        <scale scale-name="Day" full-day-width="1215"/>
+        <scale scale-name="Hour" full-day-width="65880"/>
+        <scale scale-name="Minute" full-day-width="64800"/>
+        <scale scale-name="Month" full-day-width="34.5"/>
+        <scale scale-name="Quarter" full-day-width="9.6"/>
+        <scale scale-name="Week" full-day-width="162"/>
+        <scale scale-name="Year" full-day-width="2.3625"/>
+        <offtime-display>none</offtime-display>
+      </gantt-view>
+    </task-view>
+    <resource-view>
+      <split-view-divider-position>532</split-view-divider-position>
+      <outline x="0" y="0" w="532" h="991">
+        <column name="Notes" width="20"/>
+        <column name="Resource" width="231"/>
+        <column name="#" width="68"/>
+        <column name="Total Cost" width="102"/>
+        <column name="Total Hours" width="105"/>
+        <expanded-items idrefs="r3"/>
+        <selected-items-at-filter-time idrefs="r12 r3"/>
+      </outline>
+      <timeline x="83" y="0" w="948" h="991">
+        <offtime-display>none</offtime-display>
+        <task-bar-label task-type="group" position="left">
+          <key>Title</key>
+        </task-bar-label>
+        <task-bar-label task-type="group" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="group" position="right">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="left">
+          <key>Title</key>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="right">
+          <key>Assigned</key>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="left">
+          <key>Title</key>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="right">
+          <key/>
+        </task-bar-label>
+        <scale scale-name="Automatic" full-day-width="41.7411">
+          <selected/>
+        </scale>
+        <scale scale-name="Day" full-day-width="1215"/>
+        <scale scale-name="Hour" full-day-width="65880"/>
+        <scale scale-name="Minute" full-day-width="64800"/>
+        <scale scale-name="Month" full-day-width="34.5"/>
+        <scale scale-name="Quarter" full-day-width="9.6"/>
+        <scale scale-name="Week" full-day-width="162"/>
+        <scale scale-name="Year" full-day-width="2.3625"/>
+      </timeline>
+    </resource-view>
+    <calendar>
+      <split-view-divider-position>265</split-view-divider-position>
+      <outline x="0" y="0" w="265" h="1109"/>
+    </calendar>
+    <network-view>
+      <network-view>
+        <task-table-style/>
+        <milestone-table-style/>
+        <group-table-style/>
+      </network-view>
+    </network-view>
+  </window>
+  <project>
+    <next-task-id>162</next-task-id>
+    <next-resource-id>29</next-resource-id>
+    <scenario id="hKTpre0kyxy" name="Actual" filename="Actual.xml"/>
+    <date-display dates="true" times="true" seconds="false"/>
+    <numbering-style>wbs</numbering-style>
+    <auto-level/>
+    <critical-path-slack>0</critical-path-slack>
+    <currency-format>$1,234.56</currency-format>
+    <duration-format hours-per-day="8" hours-per-week="40" hours-per-month="160" hours-per-year="1920" hours="true"/>
+    <effort-format hours-per-day="8" hours-per-week="40" hours-per-month="160" hours-per-year="1920" hours="true"/>
+    <base-style>
+      <style/>
+    </base-style>
+    <column-title-style>
+      <style>
+        <value key="font-name">HelveticaNeue-Medium</value>
+        <value key="font-size">12</value>
+        <value key="font-weight">6</value>
+        <value key="paragraph-alignment">center</value>
+      </style>
+    </column-title-style>
+    <note-style>
+      <style>
+        <value key="font-fill">
+          <color space="gg22" w="0.409218"/>
+        </value>
+        <value key="font-size">12</value>
+      </style>
+    </note-style>
+    <standard-task-style>
+      <style/>
+    </standard-task-style>
+    <overdue-task-style>
+      <style/>
+    </overdue-task-style>
+    <completed-task-style>
+      <style/>
+    </completed-task-style>
+    <group-task-style>
+      <style/>
+    </group-task-style>
+    <milestone-task-style>
+      <style/>
+    </milestone-task-style>
+    <resource-style>
+      <style/>
+    </resource-style>
+    <not-editable-style>
+      <style>
+        <value key="font-fill">
+          <color space="gg22" w="0.409218"/>
+        </value>
+      </style>
+    </not-editable-style>
+    <publish>
+      <key>uuid</key>
+      <string>kMAPUJioKvF</string>
+      <key>template</key>
+      <string>Basic</string>
+      <key>active</key>
+      <string>YES</string>
+      <key>useFilters</key>
+      <bool>true</bool>
+      <key>noteExpansionOverride</key>
+      <integer>0</integer>
+      <key>printOption</key>
+      <integer>0</integer>
+      <key>stringEncoding</key>
+      <integer>4</integer>
+      <key>viewType</key>
+      <integer>0</integer>
+      <key>rowExpansionOverride</key>
+      <integer>1</integer>
+      <key>bookmarkData</key>
+      <data>Ym9va9QDAAAAAAQQMAAAAOYXmgqyuNLy1V19/dySRpxeWu3Xalb4gShZV2rl843B0AIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAAJAAAAAQEAAHNjb29ieWRvbwAAAAkAAAABAQAARG9jdW1lbnRzAAAAEQAAAAEBAABDb3Jwb3JhdGUgLSBTcGlyZQAAAAcAAAABAQAAQ2xpZW50cwAFAAAAAQEAAFJhd2xzAAAACwAAAAEBAAAwMi1wcm9qZWN0cwAHAAAAAQEAAGFya2FkaWEACwAAAAEBAAAwMC1wcm9wb3NhbAAaAAAAAQEAAGdhbnR0LWFya2FkaWEtZXhwYW5kZWQucGRmAAAoAAAAAQYAABAAAAAgAAAANAAAAEgAAABkAAAAdAAAAIQAAACYAAAAqAAAALwAAAAIAAAABAMAAJ1mAAAAAAAACAAAAAQDAAAqngAAAAAAAAgAAAAEAwAALlnHAwAAAAAIAAAABAMAAPDkHQkAAAAACAAAAAQDAAAPCB4JAAAAAAgAAAAEAwAAxNIgCQAAAAAIAAAABAMAAOpXGwsAAAAACAAAAAQDAABllCoLAAAAAAgAAAAEAwAAWRlHCwAAAAAIAAAABAMAACO6jQsAAAAAKAAAAAEGAAAQAQAAIAEAADABAABAAQAAUAEAAGABAABwAQAAgAEAAJABAACgAQAACAAAAAAEAABBxi22ik+41xgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAACAAAAAQDAAAIAAAAAAAAAAQAAAADAwAA9QEAAAgAAAABCQAAZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAFChG3MAAAAIAAAAAAQAAEHEnQ18AAAAJAAAAAEBAABCNjc4NTVFQi1FQTUwLTRDMzktODM2Mi1DQUVBQjY1QzJBM0QYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAzAAAAP7///8BAAAAAAAAABAAAAAEEAAA4AAAAAAAAAAFEAAAsAEAAAAAAAAQEAAA8AEAAAAAAABAEAAA4AEAAAAAAAACIAAAvAIAAAAAAAAFIAAALAIAAAAAAAAQIAAAPAIAAAAAAAARIAAAcAIAAAAAAAASIAAAUAIAAAAAAAATIAAAYAIAAAAAAAAgIAAAnAIAAAAAAAAwIAAAyAIAAAAAAAABwAAAEAIAAAAAAAARwAAAIAAAAAAAAAASwAAAIAIAAAAAAAAQ0AAABAAAAAAAAAA=</data>
+      <key>filePath</key>
+      <string>/Users/scoobydoo/Documents/Corporate - Spire/Clients/Rawls/02-projects/arkadia/00-proposal/gantt-arkadia-expanded.pdf</string>
+      <key>fileType</key>
+      <string>com.adobe.pdf</string>
+      <key>reportType</key>
+      <integer>0</integer>
+      <key>class</key>
+      <string>OPExportAction</string>
+      <key>includeTaskGroups</key>
+      <bool>true</bool>
+    </publish>
+    <publish-on-save/>
+    <subscribe-refresh>0</subscribe-refresh>
+    <leveling>
+      <constrains-completion-date/>
+    </leveling>
+    <page-adornment>
+      <master-page-headers>
+        <header location="left">
+          <text>
+            <p>
+              <run>
+                <lit><cell variable="OPDocumentTitleVariableIdentifier"/></lit>
+              </run>
+            </p>
+          </text>
+        </header>
+        <header location="right">
+          <text>
+            <p>
+              <run>
+                <lit><cell variable="OPPrintJobTimestampVariableIdentifier"/></lit>
+              </run>
+            </p>
+          </text>
+        </header>
+        <footer location="left">
+          <text>
+            <p>
+              <run>
+                <lit><cell variable="OPDocumentFilenameVariableIdentifier"/></lit>
+              </run>
+            </p>
+          </text>
+        </footer>
+        <footer location="right">
+          <text>
+            <p>
+              <run>
+                <lit><cell variable="OPPageNumberVariableIdentifier"/></lit>
+              </run>
+            </p>
+          </text>
+        </footer>
+      </master-page-headers>
+    </page-adornment>
+    <publishing-client client-identifier="dwm8TsMX5LE" document-identifier="1672675"/>
+    <publishing-client client-identifier="nNvnPAeOU8N" document-identifier="1337048"/>
+  </project>
+</omniplan>

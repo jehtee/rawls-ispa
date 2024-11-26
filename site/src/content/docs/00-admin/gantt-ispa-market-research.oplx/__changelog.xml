@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="scoobydoo" date="2024-10-28T20:47:43.835Z" timestamp="2024-10-28T20:47:43.835Z">
+    <change idref="t108" from="t-1" from-position="10">
+      <change idref="t108" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t108" attribute="styleDict" type="dict" to="{&#10;    &quot;font-size&quot; = 15;&#10;    &quot;font-weight&quot; = 9;&#10;}"/>
+      <change idref="t108" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t108" attribute="title" type="string" to="Deployment Overall"/>
+    </change>
+    <change idref="t138" from="t-1" from-position="9">
+      <change idref="t138" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t138" attribute="styleDict" type="dict" to="{&#10;    &quot;font-size&quot; = 15;&#10;    &quot;font-weight&quot; = 9;&#10;}"/>
+      <change idref="t138" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t138" attribute="title" type="string" to="Report Re-Design"/>
+    </change>
+    <change idref="t4" from="t-1" from-position="8">
+      <change idref="t4" attribute="internalPrerequisitesString" type="string" from="" to="3FS"/>
+      <change idref="t4" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t4" attribute="styleDict" type="dict" to="{&#10;    &quot;font-size&quot; = 15;&#10;    &quot;font-weight&quot; = 9;&#10;}"/>
+      <change idref="t4" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t4" attribute="title" type="string" to="Product-Concierge"/>
+    </change>
+    <change idref="t3" from="t-1" from-position="7">
+      <change idref="t3" attribute="internalPrerequisitesString" type="string" from="" to="2FS"/>
+      <change idref="t3" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t3" attribute="styleDict" type="dict" to="{&#10;    &quot;font-size&quot; = 15;&#10;    &quot;font-weight&quot; = 9;&#10;}"/>
+      <change idref="t3" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t3" attribute="title" type="string" to="Product-Scribe"/>
+    </change>
+    <change idref="t2" from="t-1" from-position="6">
+      <change idref="t2" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2" attribute="styleDict" type="dict" to="{&#10;    &quot;font-size&quot; = 15;&#10;    &quot;font-weight&quot; = 9;&#10;}"/>
+      <change idref="t2" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2" attribute="title" type="string" to="Product-Coach"/>
+    </change>
+    <change idref="t1" from="t-1" from-position="5">
+      <change idref="t1" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1" attribute="styleDict" type="dict" to="{&#10;    &quot;font-size&quot; = 15;&#10;    &quot;font-weight&quot; = 9;&#10;}"/>
+      <change idref="t1" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1" attribute="title" type="string" to="Product-Librarian"/>
+    </change>
+    <change idref="t97" from="t-1" from-position="4">
+      <change idref="t97" attribute="internalPrerequisitesString" type="string" from="" to="19FS"/>
+      <change idref="t97" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t97" attribute="styleDict" type="dict" to="{&#10;    &quot;font-size&quot; = 15;&#10;    &quot;font-weight&quot; = 9;&#10;}"/>
+      <change idref="t97" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t97" attribute="title" type="string" to="Technical Foundation"/>
+    </change>
+    <change idref="t20" from="t-1" from-position="2">
+      <change idref="t20" attribute="internalPrerequisitesString" type="string" from="" to="19FS"/>
+      <change idref="t20" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t20" attribute="styleDict" type="dict" to="{&#10;    &quot;font-size&quot; = 15;&#10;    &quot;font-weight&quot; = 9;&#10;}"/>
+      <change idref="t20" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t20" attribute="title" type="string" to="Discover"/>
+    </change>
+    <change idref="t19" from="t-1" from-position="1">
+      <change idref="t19" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t19" attribute="styleDict" type="dict" to="{&#10;    &quot;font-size&quot; = 15;&#10;    &quot;font-weight&quot; = 9;&#10;}"/>
+      <change idref="t19" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t19" attribute="title" type="string" to="Define"/>
+    </change>
+    <change idref="t74" from="t-1" from-position="0">
+      <change idref="t74" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t74" attribute="styleDict" type="dict" to="{&#10;    &quot;font-size&quot; = 15;&#10;    &quot;font-weight&quot; = 9;&#10;}"/>
+      <change idref="t74" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t74" attribute="title" type="string" to="PM"/>
+    </change>
+    <change idref="t140" attribute="internalPrerequisitesString" type="string" from="20FS" to=""/>
+    <change idref="t146" from="t140" from-position="3">
+      <change idref="t146" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t146" attribute="internalAssignments" type="string" from="" to="12"/>
+      <change idref="t146" attribute="internalPrerequisitesString" type="string" from="" to="143FS"/>
+      <change idref="t146" attribute="resourceLeveledDate" type="date" to="2024-10-14T01:00:00.000Z"/>
+      <change idref="t146" attribute="title" type="string" to="Strategic Analysis"/>
+    </change>
+    <change idref="t143" from="t140" from-position="2">
+      <change idref="t143" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t143" attribute="internalAssignments" type="string" from="" to="12 {50}"/>
+      <change idref="t143" attribute="internalDuration" type="string" to="172800s"/>
+      <change idref="t143" attribute="internalPrerequisitesString" type="string" from="" to="144FS"/>
+      <change idref="t143" attribute="resourceAssignmentType" type="real" from="0" to="1"/>
+      <change idref="t143" attribute="resourceLeveledDate" type="date" to="2024-10-04T01:00:00.000Z"/>
+      <change idref="t143" attribute="title" type="string" to="Demand Model"/>
+    </change>
+    <change idref="t144" from="t140" from-position="1">
+      <change idref="t144" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t144" attribute="internalAssignments" type="string" from="" to="12"/>
+      <change idref="t144" attribute="internalPrerequisitesString" type="string" from="" to="142FS"/>
+      <change idref="t144" attribute="resourceLeveledDate" type="date" to="2024-10-02T01:00:00.000Z"/>
+      <change idref="t144" attribute="title" type="string" to="Competition"/>
+    </change>
+    <change idref="t147" to="t140" to-position="1">
+      <change idref="t147" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t147" attribute="internalPrerequisitesString" type="string" from="" to="142FS"/>
+      <change idref="t147" attribute="noEarlierThanConstraintDate" type="date" to="2024-10-28T15:00:00.000Z"/>
+      <change idref="t147" attribute="resourceLeveledDate" type="date" to="2024-10-31T15:00:00.000Z"/>
+      <change idref="t147" attribute="title" type="string" to="Secondary Research"/>
+    </change>
+    <change idref="t148" to="t140" to-position="2">
+      <change idref="t148" attribute="effort" type="real" from="28800" to="64800"/>
+      <change idref="t148" attribute="internalPrerequisitesString" type="string" from="" to="147FS"/>
+      <change idref="t148" attribute="noEarlierThanConstraintDate" type="date" to="2024-10-28T15:00:00.000Z"/>
+      <change idref="t148" attribute="resourceLeveledDate" type="date" to="2024-11-04T16:00:00.000Z"/>
+      <change idref="t148" attribute="title" type="string" to="Primary Research - Interview"/>
+    </change>
+    <change idref="t150" to="t140" to-position="3">
+      <change idref="t150" attribute="noEarlierThanConstraintDate" type="date" to="2024-10-28T15:00:00.000Z"/>
+      <change idref="t150" attribute="resourceLeveledDate" type="date" to="2024-10-29T15:00:00.000Z"/>
+      <change idref="t150" attribute="title" type="string" to="Task 1"/>
+    </change>
+    <change idref="t142" attribute="title" type="string" from="Market + Metrics" to="Definition"/>
+    <change idref="t142" attribute="resourceLeveledDate" type="date" from="2024-09-30T01:00:00.000Z" to="2024-10-29T15:00:00.000Z"/>
+  </task-change-set>
+  <task-change-set user="scoobydoo" date="2024-11-20T19:25:16.280Z" timestamp="2024-11-20T19:25:16.280Z">
+    <change idref="t140" attribute="noEarlierThanConstraintDate" type="date" from="2024-11-04T16:00:00.000Z" resolved="yes"/>
+    <change idref="t147" attribute="resourceLeveledDate" type="date" from="2024-11-04T23:00:00.000Z" to="2024-11-25T23:00:00.000Z" resolved="yes"/>
+    <change idref="t148" attribute="resourceLeveledDate" type="date" from="2024-11-06T23:00:00.000Z" to="2024-11-27T23:00:00.000Z" resolved="yes"/>
+    <change idref="t150" attribute="resourceLeveledDate" type="date" from="2024-11-12T16:00:00.000Z" to="2024-12-03T16:00:00.000Z" resolved="yes"/>
+    <change idref="t152" attribute="resourceLeveledDate" type="date" from="2024-11-11T16:00:00.000Z" to="2024-12-02T16:00:00.000Z" resolved="yes"/>
+    <change idref="t153" attribute="resourceLeveledDate" type="date" from="2024-11-14T16:00:00.000Z" to="2024-12-05T16:00:00.000Z" resolved="yes"/>
+    <change idref="t154" attribute="resourceLeveledDate" type="date" from="2024-11-19T16:00:00.000Z" to="2024-12-10T16:00:00.000Z" resolved="yes"/>
+    <change idref="t158" attribute="resourceLeveledDate" type="date" from="2024-11-04T16:00:00.000Z" to="2024-11-25T16:00:00.000Z" resolved="yes"/>
+    <change idref="t158" attribute="noEarlierThanConstraintDate" type="date" to="2024-11-25T16:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="scoobydoo" date="2024-11-20T19:38:09.511Z" timestamp="2024-11-20T19:38:09.511Z">
+    <change idref="t140" attribute="noEarlierThanConstraintDate" type="date" to="2024-11-04T16:00:00.000Z"/>
+    <change idref="t147" attribute="resourceLeveledDate" type="date" from="2024-11-25T23:00:00.000Z" to="2024-11-21T23:00:00.000Z"/>
+    <change idref="t148" attribute="effort" type="real" from="64800" to="27864"/>
+    <change idref="t148" attribute="resourceLeveledDate" type="date" from="2024-11-27T23:00:00.000Z" to="2024-11-25T23:00:00.000Z"/>
+    <change idref="t148" attribute="internalAssignments" type="string" from="12" to="12 {43}"/>
+    <change idref="t150" attribute="resourceLeveledDate" type="date" from="2024-12-03T16:00:00.000Z" to="2024-11-29T16:00:00.000Z"/>
+    <change idref="t152" attribute="resourceLeveledDate" type="date" from="2024-12-02T16:00:00.000Z" to="2024-11-28T16:00:00.000Z"/>
+    <change idref="t153" attribute="resourceLeveledDate" type="date" from="2024-12-05T16:00:00.000Z" to="2024-12-03T16:00:00.000Z"/>
+    <change idref="t154" attribute="resourceLeveledDate" type="date" from="2024-12-10T16:00:00.000Z" to="2024-12-06T16:00:00.000Z"/>
+    <change idref="t158" attribute="noLaterThanConstrainedTaskEnd" type="real" from="1" to="0"/>
+    <change idref="t158" attribute="noEarlierThanConstraintDate" type="date" from="2024-11-25T16:00:00.000Z"/>
+    <change idref="t158" attribute="resourceLeveledDate" type="date" from="2024-11-25T16:00:00.000Z" to="2024-11-21T16:00:00.000Z"/>
+  </task-change-set>
+  <task-change-set user="scoobydoo" date="2024-11-20T19:51:00.838Z" timestamp="2024-11-20T19:51:00.838Z">
+    <change idref="t147" attribute="internalAssignments" type="string" from="12" to="12 {50}" resolved="yes"/>
+    <change idref="t148" attribute="internalPrerequisitesString" type="string" from="147FS" to="" resolved="yes"/>
+    <change idref="t148" attribute="effort" type="real" from="27864" to="64800" resolved="yes"/>
+    <change idref="t148" attribute="resourceLeveledDate" type="date" from="2024-11-25T23:00:00.000Z" to="2024-11-26T16:00:00.000Z" resolved="yes"/>
+    <change idref="t148" attribute="internalAssignments" type="string" from="12 {43}" to="12 {25}" resolved="yes"/>
+    <change idref="t148" attribute="noEarlierThanConstraintDate" type="date" to="2024-11-26T01:00:00.000Z" resolved="yes"/>
+    <change idref="t150" attribute="resourceLeveledDate" type="date" from="2024-11-29T16:00:00.000Z" to="2024-12-10T16:00:00.000Z" resolved="yes"/>
+    <change idref="t150" attribute="internalAssignments" type="string" from="12" to="12 {40}" resolved="yes"/>
+    <change idref="t152" attribute="resourceLeveledDate" type="date" from="2024-11-28T16:00:00.000Z" to="2024-12-09T16:00:00.000Z" resolved="yes"/>
+    <change idref="t153" attribute="internalPrerequisitesString" type="string" from="150FS" to="" resolved="yes"/>
+    <change idref="t153" attribute="resourceLeveledDate" type="date" from="2024-12-03T16:00:00.000Z" to="2024-12-13T16:00:00.000Z" resolved="yes"/>
+    <change idref="t153" attribute="internalAssignments" type="string" from="12" to="12 {50}" resolved="yes"/>
+    <change idref="t153" attribute="noEarlierThanConstraintDate" type="date" to="2024-12-13T01:00:00.000Z" resolved="yes"/>
+    <change idref="t154" attribute="resourceLeveledDate" type="date" from="2024-12-06T16:00:00.000Z" to="2024-12-23T16:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="scoobydoo" date="2024-11-20T19:52:39.949Z" timestamp="2024-11-20T19:52:39.949Z">
+    <change idref="t140" attribute="noEarlierThanConstraintDate" type="date" from="2024-11-04T16:00:00.000Z" to="2024-11-21T01:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="scoobydoo" date="2024-11-20T19:53:23.155Z" timestamp="2024-11-20T19:53:23.155Z">
+    <change idref="t140" attribute="noEarlierThanConstraintDate" type="date" from="2024-11-21T01:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+</changelog>
