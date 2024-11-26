@@ -3,8 +3,8 @@ name: Deploy Starlight Site
 on:
   push:
     branches:
-      - main
-   workflow_dispatch: # Enables manual trigger
+      - main # Runs the workflow on push to the main branch
+  workflow_dispatch: # Enables the manual trigger
 
 jobs:
   deploy:
