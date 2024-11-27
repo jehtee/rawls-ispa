@@ -1,4 +1,10 @@
 import { defineConfig } from 'astro/config';
+
+export default defineConfig({
+  site: 'https://<username>.github.io/<repository-name>',
+  base: '/<repository-name>', // Add your repository name here
+});
+
 import starlight from '@astrojs/starlight';
 import tailwind from '@astrojs/tailwind';
 
