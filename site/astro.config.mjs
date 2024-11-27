@@ -1,14 +1,13 @@
 import { defineConfig } from 'astro/config';
 
-export default defineConfig({
-  site: 'https://jehtee.github.io/rawls-ispa/', // Add your site URL here
-  base: '/rawls-ispa/', // Add your repository name here
-});
-
+const isProd = process.env.NODE_ENV === 'production';
+ 
 import starlight from '@astrojs/starlight';
 import tailwind from '@astrojs/tailwind';
 
 export default defineConfig({
+  site: 'https://jehtee.github.io/rawls-ispa/', // Add your site URL here
+  base: '/rawls-ispa/', // Add your repository name here
   integrations: [
     starlight({
       title: 'Docs with Tailwind',
