@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://jehtee.github.io',
+  site: 'https://jehtee.github.io/rawls-ispa/site', // Add your site URL here
   base: '/rawls-ispa/site', // Add your repository name here
 });
 
