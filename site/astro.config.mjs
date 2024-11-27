@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 
 export default defineConfig({
   site: 'https://jehtee.github.io/rawls-ispa/site', // Add your site URL here
-  base: '/rawls-ispa/site/', // Add your repository name here
+  base: '/rawls-ispa/', // Add your repository name here
 });
 
 import starlight from '@astrojs/starlight';
